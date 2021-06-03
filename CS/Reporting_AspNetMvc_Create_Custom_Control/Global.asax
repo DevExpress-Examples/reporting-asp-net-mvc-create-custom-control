@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="Reporting_AspNetMvc_Create_Custom_Control.MvcApplication" Language="C#" %>
