@@ -13,8 +13,6 @@
     </div>
 </template>
 
-@*Add TypeScript helper functions library.*@
-<script src="~/NumericLabel/js/tslib.min.js"></script>
 @*The code that creates and registers the NumericLabel control.*@
 <script src="~/NumericLabel/js/numeric-label.js"></script>
 
@@ -29,6 +27,7 @@
         customizeToolbox(s, e, '@shortTypeName', '@fullTypeName');
         // Hide the Text property in the NumericLabel control's Property panel.
         s.GetPropertyInfo('@shortTypeName', "Text").visible = false;
+        s.GetPropertyInfo('@shortTypeName', "textArea").visible = false;
         // Hide the XRLabel control in the Toolbox.
         var info = e.ControlsFactory.getControlInfo("XRLabel");
         info.isToolboxItem = false;

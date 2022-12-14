@@ -19,18 +19,16 @@ function customizeToolbox(s, e, shortTypeName, fullTypeName) {
     );
 
     // Create the NumericLabel surface.
-    var NumericLabelSurface = (function (_super) {
-        __extends(NumericLabelSurface, _super);
-        function NumericLabelSurface(control, context) {
-            _super.call(this, control, context);
+    class NumericLabelSurface extends labelInfo.surfaceType {
+        constructor(control, context) {
+            super(control, context);
             this.contenttemplate = "numeric-label-content";
             this.displaySomeProperty = ko.computed(function () {
                 var text = control["Number"] && control["Number"]();
                 return text ? text : (control["text"] && control["text"]() || "");
             });
         }
-        return NumericLabelSurface;
-    })(labelInfo.surfaceType);
+    }
 
     // Create an object with information about the NumericLabel toolbox item.
     var numericLabelInfo = controlsFactory.inheritControl("XRLabel", {
