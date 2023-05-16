@@ -2,7 +2,7 @@
 
 This example demonstrates how to create a custom report control and add it to the End-User Report Designer toolbox.
 
-![Custom Report Controls in the Toolbox](images/screenshot.png)
+![Custom Report Controls in the Toolbox](Images/screenshot.png)
 
 ## Files to Review
 
