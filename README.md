@@ -11,7 +11,7 @@ This example demonstrates how to create a custom report control inherited from [
 
 Review the following topic for details: [Create and Register a Custom Control in the Report Designer Toolbox in ASP.NET MVC Application](https://docs.devexpress.com/XtraReports/400205/)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-mvc-create-custom-control&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-mvc-create-custom-control&~~~was_helpful=no)
 
